@@ -1,4 +1,4 @@
 FROM adoptopenjdk/openjdk11:alpine
-ADD /build/libs/CoopMeeting-1.jar CoopMeeting-1.jar
+ADD /build/libs/CoopMeeting-1.0.jar CoopMeeting-1.0.jar
 EXPOSE 8080
-ENTRYPOINT ["java", "-jar", "CoopMeeting-1.jar"]
+ENTRYPOINT ["java", "-jar", "CoopMeeting-1.0.jar"]
