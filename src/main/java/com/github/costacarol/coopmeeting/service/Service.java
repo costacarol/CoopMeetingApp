@@ -37,7 +37,7 @@ public class Service{
 
     public Object addNewAssociate(String fullName, String cpfNumber) {
         Optional<Associate> associate = associateRepository.findById(cpfNumber);
-        if (associate.isEmpty() && cpfNumber.length() == 11) {
+        if (!associate.isPresent() && cpfNumber.length() == 11) {
             Associate newAssociate = new Associate(fullName, cpfNumber);
             associateRepository.save(newAssociate);
             return newAssociate;
