@@ -15,4 +15,4 @@ Para finalizar e realizar a exclusão do conteiner criado, digite os comandos:
 
 $ docker stop calculator
 
-$ docker rm calculator
+$ docker rm coopmeeting
