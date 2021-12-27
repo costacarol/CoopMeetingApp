@@ -13,6 +13,6 @@ http://localhost:8080/swagger-ui.html
 
 3. Para finalizar e realizar a exclusão do conteiner criado, digite os comandos:
 
-`$ docker stop calculator`
+`$ docker stop coopmeeting`
 
-`$ docker rm calculator`
+`$ docker rm coopmeeting`
