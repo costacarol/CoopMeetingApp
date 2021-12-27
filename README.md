@@ -11,7 +11,7 @@ Caso não possua o Docker instalado na sua maquina, digite o comando:
 
 http://localhost:8080/swagger-ui.html
 
-3.Para finalizar e realizar a exclusão do conteiner criado, digite os comandos:
+3. Para finalizar e realizar a exclusão do conteiner criado, digite os comandos:
 
 `$ docker stop calculator`
 
