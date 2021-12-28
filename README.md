@@ -6,6 +6,6 @@
 `$ gradle bootRun`
 ***
 
-2. Para acessar a documentação:
+2. Após iniciar a aplicação, acesse a documentação através deste link:
 
 http://localhost:8080/swagger-ui.html
