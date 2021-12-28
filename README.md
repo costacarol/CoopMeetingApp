@@ -1,7 +1,10 @@
+- Porta destinada: 8080
+***
 
 1. Para rodar a aplicação, digite o seguinte comando:
 
 `$ gradle bootRun`
+***
 
 2. Para acessar a documentação:
 
