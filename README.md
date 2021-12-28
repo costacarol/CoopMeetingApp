@@ -3,9 +3,13 @@ Caso não possua o Docker instalado na sua maquina, digite o comando:
 
 `$ sudo apt install docker.io`
 
+1. Para baixar a imagem no docker:
+
+`$ docker pull costacarolis/coop-api-rest`
+
 1. Para rodar a aplicação digite o comando: 
 
-`$ docker run --network=host --name coopmeeting -p 8080:8080 registry.heroku.com/api-rest-coop/web`
+`$ docker run --network=host --name coopmeeting -p 8080:8080 costacarolis/coop-api-rest`
 
 2. Para acessar a documentaçao:
 
